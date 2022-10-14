@@ -1,2 +1,2 @@
 # UDEA-DesarrolloWeb
-Código fuente y otros archivos de interes
+Código fuente JAvaScript y otros archivos de interes
