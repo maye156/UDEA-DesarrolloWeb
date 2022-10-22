@@ -1,19 +1,31 @@
 import React from 'react';
 import './App.css';
 import {heroes} from '../../data/data.js';
-import heroesCard from '../Heroes/heroes.js';
+import HeroesCard from '../Heroes/heroes.js';
+
+function showAdditional(additional){
+  const alertInformation = Object.entries(additional)
+  .map(information => `${information[0]}: ${information[1]}`)
+  .join('\n');
+  alert(alertInformation);
+}
 
 
-function App(heroesCard) {
+function App() {
   return (
-    <div>
-      <h1>heroes</h1>
-      {heroes.map(h=> (
-        <heroesCard key = {h.name}/>
-      ))
-
-      }
-
+   <div className='wrapper'>
+    <h1>HEROES</h1>
+    {heroes.map(h => (
+      <HeroesCard
+        key={h.name}
+        name={h.name}
+        id={h.id}
+        
+        additional={h.additional}
+        showAdditional={showAdditional}
+        owner={h.owner}
+       />
+    ))}
     </div>
   );
 }
