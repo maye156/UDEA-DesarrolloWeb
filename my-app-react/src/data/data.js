@@ -33,11 +33,13 @@ export const heroes = [
             link: 'https://www.bing.com/ck/a?!&&p=714c9a9177196146JmltdHM9MTY2NjMxMDQwMCZpZ3VpZD0wNjMzNzkyNy0zODA3LTY1OTctMGQ1ZS03N2VlMzlhODY0ODMmaW5zaWQ9NTU2MA&ptn=3&hsh=3&fclid=06337927-3807-6597-0d5e-77ee39a86483&psq=who+is+flash&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRmxhc2hfKEJhcnJ5X0FsbGVuKSM6fjp0ZXh0PVRoZSUyMEZsYXNoJTIwJTI4QmFydGhvbG9tZXclMjBIZW5yeSUyMCUyMiUyMEJhcnJ5JTIwJTIyJTIwQWxsZW4lMjksYSUyMHJlaW52ZW50aW9uJTIwb2YlMjB0aGUlMjBvcmlnaW5hbCUyMEZsYXNoJTJDJTIwSmF5JTIwR2Fycmljay4&ntb=1'}
     },
     {
-        id: 5,
+        id: 4,
         name: 'Wolverine',
-        wner: 'Marvel',
+        owner: 'Marvel',
         additional:{
             notes: 'He is a mutant who possesses animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand. Wolverine has been depicted variously as a member of the X-Men, X-Force, Alpha Flight, the Fantastic Four, and the Avengers.', 
-           link: 'https://www.bing.com/ck/a?!&&p=a3f1e78ce1dceccaJmltdHM9MTY2NjMxMDQwMCZpZ3VpZD0wNjMzNzkyNy0zODA3LTY1OTctMGQ1ZS03N2VlMzlhODY0ODMmaW5zaWQ9NTUwNA&ptn=3&hsh=3&fclid=06337927-3807-6597-0d5e-77ee39a86483&psq=who+is+wolverine&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV29sdmVyaW5lXyhjaGFyYWN0ZXIpIzp-OnRleHQ9SGUlMjBpcyUyMGElMjBtdXRhbnQlMjB3aG8lMjBwb3NzZXNzZXMlMjBhbmltYWwta2VlbiUyMHNlbnNlcyUyQyxBbHBoYSUyMEZsaWdodCUyQyUyMHRoZSUyMEZhbnRhc3RpYyUyMEZvdXIlMkMlMjBhbmQlMjB0aGUlMjBBdmVuZ2Vycy4&ntb=1'}
-        },
+           link: 'https://www.bing.com/ck/a?!&&p=a3f1e78ce1dceccaJmltdHM9MTY2NjMxMDQwMCZpZ3VpZD0wNjMzNzkyNy0zODA3LTY1OTctMGQ1ZS03N2VlMzlhODY0ODMmaW5zaWQ9NTUwNA&ptn=3&hsh=3&fclid=06337927-3807-6597-0d5e-77ee39a86483&psq=who+is+wolverine&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV29sdmVyaW5lXyhjaGFyYWN0ZXIpIzp-OnRleHQ9SGUlMjBpcyUyMGElMjBtdXRhbnQlMjB3aG8lMjBwb3NzZXNzZXMlMjBhbmltYWwta2VlbiUyMHNlbnNlcyUyQyxBbHBoYSUyMEZsaWdodCUyQyUyMHRoZSUyMEZhbnRhc3RpYyUyMEZvdXIlMkMlMjBhbmQlMjB0aGUlMjBBdmVuZ2Vycy4&ntb=1'
+        }
+        
+    }
 ];
